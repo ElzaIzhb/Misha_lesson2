@@ -1,0 +1,90 @@
+<meta charset="utf-8">
+<div id="cards">
+    <div class="card" style="background-image: url('image/image1.jpg')">
+        <div class="downloads">
+           <a href="image/image1.jpg" download target="_blank">Download</a>
+        </div>
+    </div>
+    <div class="card" style="background-image: url('image/image2.jpg')">
+        <div class="downloads">
+            Download
+        </div>
+    </div>
+    <div class="card" style="background-image: url('image/image3.jpg')">
+        <div class="downloads">
+           Download 
+        </div>
+    </div>
+    <div class="card" style="background-image: url('image/image4.jpg')">
+        <div class="downloads">
+           Download 
+        </div>
+    </div>
+    <div class="card" style="background-image: url('image/image5.jpg')">
+        <div class="downloads">
+           Download 
+        </div>
+    </div>
+    <div class="card" style="background-image: url('image/image6.jpg')">
+        <div class="downloads">
+           Download 
+        </div>
+    </div>
+    <div class="card" style="background-image: url('image/image7.jpg')">
+        <div class="downloads">
+           Download 
+        </div>
+    </div>
+    <div class="card" style="background-image: url('image/image8.jpg')">
+        <div class="downloads">
+           Download 
+        </div>
+    </div>
+    <div class="card" style="background-image: url('image/image9.jpg')">
+        <div class="downloads">
+           Download 
+        </div>
+    </div>
+    
+</div>
+
+<style>
+    #cards {
+        
+    }
+
+
+    .card {
+        position: relative;
+        display: inline-block;
+        width: 320px;
+        height: 180px;
+        background-size: cover;
+        margin: 10px;
+        border-radius: 0 20px;
+        overflow: hidden;
+    }
+
+    .card:hover .downloads {
+        right: 20px;
+    }
+
+    .downloads {
+        transition: right 0.7s;
+        display: inline-block;
+        padding: 5px 10px;
+        background-color: #FF33FF;
+        position:absolute;
+        right: -200px;
+        bottom: 20px;
+
+        color: white;
+        font-weight: bold;
+        border-radius: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        cursor: pointer;
+
+
+    }
+</style>
+
